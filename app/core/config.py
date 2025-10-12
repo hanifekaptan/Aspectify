@@ -1,8 +1,3 @@
-"""
-app name nerede kullanılıyor?
-text analiz modellerini kullanmadan, llm ile analiz yapmaya çalış
-"""
-
 from dotenv import load_dotenv
 load_dotenv()
 
