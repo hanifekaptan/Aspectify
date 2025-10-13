@@ -1,7 +1,8 @@
-from app.schemas.response.aspect_response import AspectAnalysisResponse
 from pydantic import BaseModel, Field
 from typing import List
 import uuid
+
+from app.schemas.response.aspect_response import AspectAnalysisResponse
 
 quote: str = Field(..., description="Quote of the aspect")
 

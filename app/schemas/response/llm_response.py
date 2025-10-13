@@ -1,6 +1,7 @@
-from app.schemas.response.aspect_response import AspectAnalysisResponse
 from pydantic import BaseModel, Field
 from typing import List
+
+from app.schemas.response.aspect_response import AspectAnalysisResponse
 
 class LLMResponse(BaseModel):
     """
