@@ -1,8 +1,8 @@
-from app.schemas.response.llm_response import LLMResponse
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.tools import tool
 
+from app.schemas.response.llm_response import LLMResponse
 from app.ai_models.llm_models import gemini_2_5_pro
 
 parser = JsonOutputParser(pydantic_object=LLMResponse)
