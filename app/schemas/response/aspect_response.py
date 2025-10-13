@@ -12,4 +12,5 @@ class AspectAnalysisResponse(BaseModel):
     aspect: str = Field(..., description="Extracted aspect")
     sentiment: str = Field(..., description="Sentiment of the aspect (positive, negative, neutral)")
     score: float = Field(..., description="Sentiment score (0.0-1.0)")
+    quote: str = Field(..., description="Quote of the aspect")
     
