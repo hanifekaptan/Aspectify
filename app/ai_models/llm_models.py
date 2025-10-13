@@ -1,8 +1,8 @@
 import os
-from app.core.config import settings
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# Set GOOGLE_API_KEY environment variable for ChatGoogleGenerativeAI
+from app.core.config import settings
+
 if settings.GOOGLE_API_KEY:
     os.environ["GOOGLE_API_KEY"] = settings.GOOGLE_API_KEY.get_secret_value()
 
