@@ -26,7 +26,7 @@ async def run_absa(
     """
     content_type = identify_content_type(data)
     text_content = ""
-    is_audio_path = content_type == "audio_path"
+    is_audio_path = (content_type == "audio_path")
     
     if is_audio_path:
         text_content = transcribe_from_path(data)
