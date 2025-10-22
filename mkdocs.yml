@@ -1,0 +1,114 @@
+site_name: Aspectify Documentation
+site_url: https://hanifekaptan.github.io/Aspectify/
+site_description: Aspect-Based Sentiment Analysis (ABSA) application documentation
+repo_url: https://github.com/hanifekaptan/Aspectify
+repo_name: Aspectify on GitHub
+edit_uri: ""
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+  icon:
+    logo: material/robot-happy
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hanifekaptan
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      noclasses: false
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - def_list
+  - abbr
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - section-index
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        - name: English
+          locale: en
+          default: true
+          build: true
+        - name: Türkçe
+          locale: tr
+          build: true
+  - git-revision-date-localized
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+    - Quick Start: getting-started/quick-start.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - Request-Lifecycle: architecture/request-lifecycle.md
+    - Tech-Stack: architecture/tech-stack.md
+  - Development:
+    - Coding-Standarts: development/coding-standards.md
+    - Local-Setup: development/local-setup.md
+    - Logging: development/logging.md
+    - Testing-Guide: development/testing-guide.md
+  - Deployment:
+    - Infrastructure: deployment/infrastructure.md
+    - Production-Setup: deployment/production-setup.md
+    - Logging: deployment/logging.md
+  - API Reference:
+    - Endpoints: api-reference/endpoints.md
+    - Schemas: api-reference/schemas.md
+  
