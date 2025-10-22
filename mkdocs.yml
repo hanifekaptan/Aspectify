@@ -109,6 +109,6 @@ nav:
     - Production-Setup: deployment/production-setup.md
     - Logging: deployment/logging.md
   - API Reference:
-    - Endpoints: api-reference/endpoints.md
-    - Schemas: api-reference/schemas.md
+    - Endpoints: api/endpoints.md
+    - Schemas: api/schemas.md
   
