@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://hanifekaptan.github.io/aspectify/tr/development/logging/">
+        <link rel="canonical" href="https://hanifekaptan.github.io/Aspectify/tr/development/logging/">
       
       
-        <link rel="prev" href="../../api/response-models/">
+        <link rel="prev" href="../local-setup/">
       
       
-        <link rel="next" href="../../deployment/requirements/">
+        <link rel="next" href="../testing-guide/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#loglama-sistemi" class="md-skip">
+        <a href="#gelistirici-icin-loglama-klavuzu" class="md-skip">
           Ana içeriğe geç
         </a>
       
@@ -220,7 +220,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/hanifekaptan/aspectify" title="Depoya git" class="md-source" data-md-component="source">
+        <a href="https://github.com/hanifekaptan/Aspectify" title="Depoya git" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -308,33 +308,13 @@
   
   
   
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../api/absa-agent/" class="md-tabs__link">
-          
-  
-  
-  API Reference
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
     
   
   
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../coding-standards/" class="md-tabs__link">
           
   
   
@@ -354,11 +334,31 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../deployment/requirements/" class="md-tabs__link">
+        <a href="../../deployment/infrastructure/" class="md-tabs__link">
           
   
   
   Deployment
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../api-reference/endpoints.md" class="md-tabs__link">
+          
+  
+  
+  API Reference
 
         </a>
       </li>
@@ -400,7 +400,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/hanifekaptan/aspectify" title="Depoya git" class="md-source" data-md-component="source">
+      <a href="https://github.com/hanifekaptan/Aspectify" title="Depoya git" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -631,87 +631,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture/core/" class="md-nav__link">
+      <a href="../../architecture/request-lifecycle/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Core Modules
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    API Reference
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            API Reference
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../api/absa-agent/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    ABSA Agent
+    Request-Lifecycle
     
   </span>
   
@@ -729,12 +654,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/response-models/" class="md-nav__link">
+      <a href="../../architecture/tech-stack/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Response Models
+    Tech-Stack
     
   </span>
   
@@ -777,10 +702,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -793,12 +718,58 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Development
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding-standards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coding-Standarts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Local-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -857,350 +828,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#genel-baks" class="md-nav__link">
+  <a href="#logger-kullanm" class="md-nav__link">
     <span class="md-ellipsis">
-      Genel Bakış
+      Logger Kullanımı
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#yaplandrma" class="md-nav__link">
+  <a href="#log-seviyeleri-ve-kullanm-alanlar" class="md-nav__link">
     <span class="md-ellipsis">
-      Yapılandırma
+      Log Seviyeleri ve Kullanım Alanları
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Yapılandırma">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#loglama-yaplandrmas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Loglama Yapılandırması
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ortam-degiskenleri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ortam Değişkenleri
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#log-seviyeleri" class="md-nav__link">
+  <a href="#hata-yonetimi-ve-loglama" class="md-nav__link">
     <span class="md-ellipsis">
-      Log Seviyeleri
+      Hata Yönetimi ve Loglama
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Log Seviyeleri">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seviye-hiyerarsisi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Seviye Hiyerarşisi
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seviye-acklamalar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Seviye Açıklamaları
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#seviye-kullanm" class="md-nav__link">
-    <span class="md-ellipsis">
-      Seviye Kullanımı
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#log-format" class="md-nav__link">
+  <a href="#guvenlik-hassas-bilgileri-loglamaktan-kacnn" class="md-nav__link">
     <span class="md-ellipsis">
-      Log Formatı
+      Güvenlik: Hassas Bilgileri Loglamaktan Kaçının
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Log Formatı">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#varsaylan-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      Varsayılan Format
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ornek-log-girisleri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Örnek Log Girişleri
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modul-bazl-loglama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modül Bazlı Loglama
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Modül Bazlı Loglama">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#logger-olusturma" class="md-nav__link">
-    <span class="md-ellipsis">
-      Logger Oluşturma
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ornek-modul-loglama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Örnek Modül Loglama
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hata-yonetimi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hata Yönetimi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hata Yönetimi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#exception-loglama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exception Loglama
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stack-trace-loglama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stack Trace Loglama
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#performans-loglama" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performans Loglama
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Performans Loglama">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#zaman-olcumu" class="md-nav__link">
-    <span class="md-ellipsis">
-      Zaman Ölçümü
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decorator-ile-zaman-olcumu" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decorator ile Zaman Ölçümü
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#log-dosyas-yonetimi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Dosyası Yönetimi
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Log Dosyası Yönetimi">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#log-rotation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Rotation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#log-temizleme" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Temizleme
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#guvenlik" class="md-nav__link">
-    <span class="md-ellipsis">
-      Güvenlik
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Güvenlik">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hassas-bilgi-maskeleme" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hassas Bilgi Maskeleme
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#log-guvenligi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Güvenliği
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Test">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#log-testleri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Testleri
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#en-iyi-uygulamalar" class="md-nav__link">
-    <span class="md-ellipsis">
-      En İyi Uygulamalar
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="En İyi Uygulamalar">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#loglama-kurallar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Loglama Kuralları
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#guvenlik_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Güvenlik
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#performans" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performans
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1208,6 +867,150 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testing-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing-Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Deployment
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Deployment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/infrastructure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Infrastructure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/production-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Production-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/logging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1250,7 +1053,7 @@
   
   
   <span class="md-ellipsis">
-    Deployment
+    API Reference
     
   </span>
   
@@ -1261,7 +1064,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Deployment
+            API Reference
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1272,12 +1075,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/requirements/" class="md-nav__link">
+      <a href="../../../api-reference/endpoints.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Requirements
+    Endpoints
     
   </span>
   
@@ -1295,12 +1098,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/environment/" class="md-nav__link">
+      <a href="../../../api-reference/schemas.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Environment Setup
+    Schemas
     
   </span>
   
@@ -1334,368 +1137,76 @@
 
 
 
-<h1 id="loglama-sistemi">Loglama Sistemi<a class="headerlink" href="#loglama-sistemi" title="Permanent link">&para;</a></h1>
-<p>Aspectify, kapsamlı bir loglama sistemi kullanarak uygulama davranışını izler ve hata ayıklama süreçlerini kolaylaştırır.</p>
-<h2 id="genel-baks">Genel Bakış<a class="headerlink" href="#genel-baks" title="Permanent link">&para;</a></h2>
-<p>Loglama sistemi şu özellikleri sağlar:</p>
-<ul>
-<li><strong>Dosya Tabanlı Loglama</strong>: Loglar <code>logs/app.log</code> dosyasına yazılır</li>
-<li><strong>Yapılandırılabilir Seviyeler</strong>: Ortam değişkeni ile kontrol edilebilir</li>
-<li><strong>UTF-8 Desteği</strong>: Türkçe karakter desteği</li>
-<li><strong>Otomatik Dizin Oluşturma</strong>: <code>logs</code> dizini otomatik oluşturulur</li>
-<li><strong>Timestamp</strong>: Her log girişi zaman damgası içerir</li>
-</ul>
-<h2 id="yaplandrma">Yapılandırma<a class="headerlink" href="#yaplandrma" title="Permanent link">&para;</a></h2>
-<h3 id="loglama-yaplandrmas">Loglama Yapılandırması<a class="headerlink" href="#loglama-yaplandrmas" title="Permanent link">&para;</a></h3>
-<p><code>app/core/logging_config.py</code> dosyasında tanımlanır:</p>
+<h1 id="gelistirici-icin-loglama-klavuzu">Geliştirici için Loglama Kılavuzu<a class="headerlink" href="#gelistirici-icin-loglama-klavuzu" title="Permanent link">&para;</a></h1>
+<h2 id="logger-kullanm">Logger Kullanımı<a class="headerlink" href="#logger-kullanm" title="Permanent link">&para;</a></h2>
+<p>Uygulamanın ana logger'ı <code>app.core.logging_config</code> modülünden import edilebilir. Ancak en iyi pratik, her modülün kendi logger'ını oluşturmasıdır.</p>
 <div class="language-python highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.config</span><span class="w"> </span><span class="kn">import</span> <span class="n">settings</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">setup_logging</span><span class="p">():</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">log_level</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">LOG_LEVEL</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="c1"># Logs dizini oluştur</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="s2">&quot;logs&quot;</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="c1"># Loglama yapılandırması</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        <span class="n">level</span><span class="o">=</span><span class="n">log_level</span><span class="p">,</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>        <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="n">handlers</span><span class="o">=</span><span class="p">[</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            <span class="n">logging</span><span class="o">.</span><span class="n">FileHandler</span><span class="p">(</span><span class="s1">&#39;logs/app.log&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>        <span class="p">]</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    <span class="p">)</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Logging initialized with level: </span><span class="si">{</span><span class="n">log_level</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    <span class="k">return</span> <span class="n">logger</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">setup_logging</span><span class="p">()</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># Modüle özel bir logger oluşturun</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># Logger&#39;ı kullanın</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Bu modül başlatıldı.&quot;</span><span class="p">)</span>
 </code></pre></div>
-<h3 id="ortam-degiskenleri">Ortam Değişkenleri<a class="headerlink" href="#ortam-degiskenleri" title="Permanent link">&para;</a></h3>
-<p><code>.env</code> dosyasında log seviyesini ayarlayın:</p>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a># Log seviyesi (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>LOG_LEVEL=INFO
-</code></pre></div>
-<h2 id="log-seviyeleri">Log Seviyeleri<a class="headerlink" href="#log-seviyeleri" title="Permanent link">&para;</a></h2>
-<h3 id="seviye-hiyerarsisi">Seviye Hiyerarşisi<a class="headerlink" href="#seviye-hiyerarsisi" title="Permanent link">&para;</a></h3>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>CRITICAL (50) &gt; ERROR (40) &gt; WARNING (30) &gt; INFO (20) &gt; DEBUG (10)
-</code></pre></div>
-<h3 id="seviye-acklamalar">Seviye Açıklamaları<a class="headerlink" href="#seviye-acklamalar" title="Permanent link">&para;</a></h3>
+<h2 id="log-seviyeleri-ve-kullanm-alanlar">Log Seviyeleri ve Kullanım Alanları<a class="headerlink" href="#log-seviyeleri-ve-kullanm-alanlar" title="Permanent link">&para;</a></h2>
+<p>Doğru log seviyesini seçmek, logların anlamlı olmasını sağlar.</p>
 <table>
 <thead>
 <tr>
-<th>Seviye</th>
-<th>Açıklama</th>
-<th>Kullanım</th>
+<th style="text-align: left;">Seviye</th>
+<th style="text-align: left;">Açıklama</th>
+<th style="text-align: left;">Ne Zaman Kullanılmalı?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>DEBUG</code></td>
-<td>Hata ayıklama için ayrıntılı bilgi</td>
-<td>Geliştirme sırasında</td>
+<td style="text-align: left;"><code>DEBUG</code></td>
+<td style="text-align: left;">Geliştirme sırasında hata ayıklamak için gereken ayrıntılı bilgiler.</td>
+<td style="text-align: left;">Bir değişkenin değerini veya bir fonksiyonun akışını takip ederken.</td>
 </tr>
 <tr>
-<td><code>INFO</code></td>
-<td>Program yürütmesi hakkında genel bilgi</td>
-<td>Normal işlemler</td>
+<td style="text-align: left;"><code>INFO</code></td>
+<td style="text-align: left;">Uygulamanın normal akışını gösteren bilgilendirici mesajlar.</td>
+<td style="text-align: left;">Bir işlemin başladığını, bittiğini veya önemli bir kilometre taşına ulaştığını belirtmek için.</td>
 </tr>
 <tr>
-<td><code>WARNING</code></td>
-<td>Beklenmeyen bir şey oldu</td>
-<td>Potansiyel sorunlar</td>
+<td style="text-align: left;"><code>WARNING</code></td>
+<td style="text-align: left;">Beklenmedik ancak uygulamanın çalışmasını engellemeyen durumlar.</td>
+<td style="text-align: left;">Bir API'den yavaş yanıt alınması, geçici bir bağlantı sorunu gibi potansiyel sorunlar.</td>
 </tr>
 <tr>
-<td><code>ERROR</code></td>
-<td>Ciddi bir sorun oluştu</td>
-<td>Hata durumları</td>
+<td style="text-align: left;"><code>ERROR</code></td>
+<td style="text-align: left;">Uygulamanın bir işlemi tamamlamasını engelleyen ciddi hatalar.</td>
+<td style="text-align: left;">Veritabanı bağlantı hatası, dosya bulunamaması, geçersiz girdi gibi durumlar.</td>
 </tr>
 <tr>
-<td><code>CRITICAL</code></td>
-<td>Çok ciddi bir hata oluştu</td>
-<td>Sistem çökmesi</td>
+<td style="text-align: left;"><code>CRITICAL</code></td>
+<td style="text-align: left;">Uygulamanın tamamen çökmesine neden olabilecek çok ciddi hatalar.</td>
+<td style="text-align: left;">Diskte yer kalmaması, belleğin tükenmesi gibi sistemsel krizler.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="seviye-kullanm">Seviye Kullanımı<a class="headerlink" href="#seviye-kullanm" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1"># Hata ayıklama bilgisi</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Değişken değeri: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">variable_value</span><span class="p">)</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c1"># Genel bilgi</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;İşlem başlatıldı: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">operation_name</span><span class="p">)</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="c1"># Uyarı</span>
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Beklenmeyen durum: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">warning_message</span><span class="p">)</span>
-<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
-<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="c1"># Hata</span>
-<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;İşlem başarısız: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">error_message</span><span class="p">)</span>
-<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>
-<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="c1"># Kritik hata</span>
-<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="n">logger</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="s2">&quot;Sistem çökmesi: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">critical_error</span><span class="p">)</span>
+<h2 id="hata-yonetimi-ve-loglama">Hata Yönetimi ve Loglama<a class="headerlink" href="#hata-yonetimi-ve-loglama" title="Permanent link">&para;</a></h2>
+<p>Hataları loglarken, mümkün olduğunca fazla bağlam sağlamak önemlidir. <code>try...except</code> blokları içinde loglama yapmak standart bir pratiktir.</p>
+<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="c1"># Hata potansiyeli olan bir işlem</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">risky_operation</span><span class="p">()</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Riskli işlem başarıyla tamamlandı.&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    <span class="c1"># exc_info=True parametresi, hatanın stack trace&#39;ini loga ekler.</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    <span class="c1"># Bu, hata ayıklama için hayati öneme sahiptir.</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Beklenmeyen bir hata oluştu: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">exc_info</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    <span class="k">raise</span> <span class="c1"># Hatayı tekrar yükselterek program akışının devam etmesini engelle</span>
 </code></pre></div>
-<h2 id="log-format">Log Formatı<a class="headerlink" href="#log-format" title="Permanent link">&para;</a></h2>
-<h3 id="varsaylan-format">Varsayılan Format<a class="headerlink" href="#varsaylan-format" title="Permanent link">&para;</a></h3>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>%(asctime)s - %(name)s - %(levelname)s - %(message)s
+<h2 id="guvenlik-hassas-bilgileri-loglamaktan-kacnn">Güvenlik: Hassas Bilgileri Loglamaktan Kaçının<a class="headerlink" href="#guvenlik-hassas-bilgileri-loglamaktan-kacnn" title="Permanent link">&para;</a></h2>
+<p><strong>Asla</strong> kullanıcı şifreleri, API anahtarları, token'lar veya kişisel veriler gibi hassas bilgileri loglamayın.</p>
+<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># ❌ YANLIŞ YAKLAŞIM</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kullanıcı girişi: </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s2">, şifre: </span><span class="si">{</span><span class="n">password</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># ✅ DOĞRU YAKLAŞIM</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kullanıcı girişi denemesi: </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </code></pre></div>
-<h3 id="ornek-log-girisleri">Örnek Log Girişleri<a class="headerlink" href="#ornek-log-girisleri" title="Permanent link">&para;</a></h3>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>2024-01-15 10:30:45,123 - app.agents.absa_agent - INFO - ABSA analizi başlatıldı
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>2024-01-15 10:30:46,456 - app.tools.absa_analyzer - DEBUG - Metin işlendi: &quot;Bu ürün harika...&quot;
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>2024-01-15 10:30:47,789 - app.agents.absa_agent - INFO - Analiz tamamlandı
-<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>2024-01-15 10:30:48,012 - app.agents.absa_agent - ERROR - API hatası: Invalid API key
-</code></pre></div>
-<h2 id="modul-bazl-loglama">Modül Bazlı Loglama<a class="headerlink" href="#modul-bazl-loglama" title="Permanent link">&para;</a></h2>
-<h3 id="logger-olusturma">Logger Oluşturma<a class="headerlink" href="#logger-olusturma" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="c1"># Modül logger&#39;ı oluştur</span>
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
-<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
-<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c1"># Kullanım</span>
-<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Modül başlatıldı&quot;</span><span class="p">)</span>
-</code></pre></div>
-<h3 id="ornek-modul-loglama">Örnek Modül Loglama<a class="headerlink" href="#ornek-modul-loglama" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># app/agents/absa_agent.py</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">run_absa</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ABSAResponse</span><span class="p">:</span>
-<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ABSA analizi başlatıldı: </span><span class="si">{</span><span class="n">data</span><span class="p">[:</span><span class="mi">50</span><span class="p">]</span><span class="si">}</span><span class="s2">...&quot;</span><span class="p">)</span>
-<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
-<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>    <span class="k">try</span><span class="p">:</span>
-<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>        <span class="c1"># İşlem kodları</span>
-<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;İçerik türü belirlendi: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">content_type</span><span class="p">)</span>
-<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Dil tespit edildi: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">language</span><span class="p">)</span>
-<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>
-<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>        <span class="n">result</span> <span class="o">=</span> <span class="n">absa_analyzer_tool</span><span class="o">.</span><span class="n">invoke</span><span class="p">({</span><span class="s2">&quot;text&quot;</span><span class="p">:</span> <span class="n">text_content</span><span class="p">,</span> <span class="s2">&quot;language&quot;</span><span class="p">:</span> <span class="n">language</span><span class="p">})</span>
-<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Analiz başarıyla tamamlandı&quot;</span><span class="p">)</span>
-<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>
-<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>        <span class="k">return</span> <span class="n">final_response</span>
-<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>
-<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Analiz sırasında hata: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>        <span class="k">raise</span>
-</code></pre></div>
-<h2 id="hata-yonetimi">Hata Yönetimi<a class="headerlink" href="#hata-yonetimi" title="Permanent link">&para;</a></h2>
-<h3 id="exception-loglama">Exception Loglama<a class="headerlink" href="#exception-loglama" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
-<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="k">try</span><span class="p">:</span>
-<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    <span class="c1"># Riskli işlem</span>
-<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">risky_operation</span><span class="p">()</span>
-<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;İşlem başarılı&quot;</span><span class="p">)</span>
-<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>
-<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Geçersiz değer hatası: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>    <span class="k">raise</span>
-<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>
-<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="k">except</span> <span class="ne">FileNotFoundError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Dosya bulunamadı: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>    <span class="k">raise</span>
-<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>
-<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Beklenmeyen hata: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">exc_info</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>    <span class="k">raise</span>
-</code></pre></div>
-<h3 id="stack-trace-loglama">Stack Trace Loglama<a class="headerlink" href="#stack-trace-loglama" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
-<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="k">try</span><span class="p">:</span>
-<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    <span class="c1"># Riskli işlem</span>
-<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">risky_operation</span><span class="p">()</span>
-<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
-<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>    <span class="c1"># Stack trace ile loglama</span>
-<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hata oluştu: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">exc_info</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>    <span class="k">raise</span>
-</code></pre></div>
-<h2 id="performans-loglama">Performans Loglama<a class="headerlink" href="#performans-loglama" title="Permanent link">&para;</a></h2>
-<h3 id="zaman-olcumu">Zaman Ölçümü<a class="headerlink" href="#zaman-olcumu" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
-<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">timed_operation</span><span class="p">():</span>
-<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>    <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
-<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>
-<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>    <span class="k">try</span><span class="p">:</span>
-<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>        <span class="c1"># İşlem kodları</span>
-<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>        <span class="n">result</span> <span class="o">=</span> <span class="n">perform_operation</span><span class="p">()</span>
-<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>
-<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>        <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
-<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;İşlem tamamlandı: </span><span class="si">{</span><span class="n">elapsed_time</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> saniye&quot;</span><span class="p">)</span>
-<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>
-<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>        <span class="k">return</span> <span class="n">result</span>
-<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>
-<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a>        <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
-<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a>        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;İşlem başarısız: </span><span class="si">{</span><span class="n">elapsed_time</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> saniye, hata: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>        <span class="k">raise</span>
-</code></pre></div>
-<h3 id="decorator-ile-zaman-olcumu">Decorator ile Zaman Ölçümü<a class="headerlink" href="#decorator-ile-zaman-olcumu" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="n">wraps</span>
-<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>
-<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="k">def</span><span class="w"> </span><span class="nf">log_execution_time</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
-<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>    <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>        <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
-<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
-<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>        <span class="k">try</span><span class="p">:</span>
-<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>            <span class="n">result</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>            <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
-<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2"> tamamlandı: </span><span class="si">{</span><span class="n">elapsed_time</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> saniye&quot;</span><span class="p">)</span>
-<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>            <span class="k">return</span> <span class="n">result</span>
-<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>
-<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>            <span class="n">elapsed_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
-<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2"> başarısız: </span><span class="si">{</span><span class="n">elapsed_time</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> saniye, hata: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a>            <span class="k">raise</span>
-<a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>
-<a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a>    <span class="k">return</span> <span class="n">wrapper</span>
-<a id="__codelineno-11-23" name="__codelineno-11-23" href="#__codelineno-11-23"></a>
-<a id="__codelineno-11-24" name="__codelineno-11-24" href="#__codelineno-11-24"></a><span class="c1"># Kullanım</span>
-<a id="__codelineno-11-25" name="__codelineno-11-25" href="#__codelineno-11-25"></a><span class="nd">@log_execution_time</span>
-<a id="__codelineno-11-26" name="__codelineno-11-26" href="#__codelineno-11-26"></a><span class="k">def</span><span class="w"> </span><span class="nf">analyze_text</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-<a id="__codelineno-11-27" name="__codelineno-11-27" href="#__codelineno-11-27"></a>    <span class="c1"># Analiz kodları</span>
-<a id="__codelineno-11-28" name="__codelineno-11-28" href="#__codelineno-11-28"></a>    <span class="k">return</span> <span class="n">result</span>
-</code></pre></div>
-<h2 id="log-dosyas-yonetimi">Log Dosyası Yönetimi<a class="headerlink" href="#log-dosyas-yonetimi" title="Permanent link">&para;</a></h2>
-<h3 id="log-rotation">Log Rotation<a class="headerlink" href="#log-rotation" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">logging.handlers</span><span class="w"> </span><span class="kn">import</span> <span class="n">RotatingFileHandler</span>
-<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.config</span><span class="w"> </span><span class="kn">import</span> <span class="n">settings</span>
-<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>
-<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">setup_logging_with_rotation</span><span class="p">():</span>
-<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>    <span class="n">log_level</span> <span class="o">=</span> <span class="n">settings</span><span class="o">.</span><span class="n">LOG_LEVEL</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
-<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>
-<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>    <span class="c1"># Logs dizini oluştur</span>
-<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="s2">&quot;logs&quot;</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>
-<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>    <span class="c1"># Rotating file handler</span>
-<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>    <span class="n">handler</span> <span class="o">=</span> <span class="n">RotatingFileHandler</span><span class="p">(</span>
-<a id="__codelineno-12-13" name="__codelineno-12-13" href="#__codelineno-12-13"></a>        <span class="s1">&#39;logs/app.log&#39;</span><span class="p">,</span>
-<a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a>        <span class="n">maxBytes</span><span class="o">=</span><span class="mi">10</span><span class="o">*</span><span class="mi">1024</span><span class="o">*</span><span class="mi">1024</span><span class="p">,</span>  <span class="c1"># 10MB</span>
-<a id="__codelineno-12-15" name="__codelineno-12-15" href="#__codelineno-12-15"></a>        <span class="n">backupCount</span><span class="o">=</span><span class="mi">5</span>
-<a id="__codelineno-12-16" name="__codelineno-12-16" href="#__codelineno-12-16"></a>    <span class="p">)</span>
-<a id="__codelineno-12-17" name="__codelineno-12-17" href="#__codelineno-12-17"></a>
-<a id="__codelineno-12-18" name="__codelineno-12-18" href="#__codelineno-12-18"></a>    <span class="c1"># Formatter</span>
-<a id="__codelineno-12-19" name="__codelineno-12-19" href="#__codelineno-12-19"></a>    <span class="n">formatter</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">Formatter</span><span class="p">(</span>
-<a id="__codelineno-12-20" name="__codelineno-12-20" href="#__codelineno-12-20"></a>        <span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> - </span><span class="si">%(name)s</span><span class="s1"> - </span><span class="si">%(levelname)s</span><span class="s1"> - </span><span class="si">%(message)s</span><span class="s1">&#39;</span>
-<a id="__codelineno-12-21" name="__codelineno-12-21" href="#__codelineno-12-21"></a>    <span class="p">)</span>
-<a id="__codelineno-12-22" name="__codelineno-12-22" href="#__codelineno-12-22"></a>    <span class="n">handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
-<a id="__codelineno-12-23" name="__codelineno-12-23" href="#__codelineno-12-23"></a>
-<a id="__codelineno-12-24" name="__codelineno-12-24" href="#__codelineno-12-24"></a>    <span class="c1"># Logger yapılandırması</span>
-<a id="__codelineno-12-25" name="__codelineno-12-25" href="#__codelineno-12-25"></a>    <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">()</span>
-<a id="__codelineno-12-26" name="__codelineno-12-26" href="#__codelineno-12-26"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">log_level</span><span class="p">)</span>
-<a id="__codelineno-12-27" name="__codelineno-12-27" href="#__codelineno-12-27"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">handler</span><span class="p">)</span>
-<a id="__codelineno-12-28" name="__codelineno-12-28" href="#__codelineno-12-28"></a>
-<a id="__codelineno-12-29" name="__codelineno-12-29" href="#__codelineno-12-29"></a>    <span class="k">return</span> <span class="n">logger</span>
-</code></pre></div>
-<h3 id="log-temizleme">Log Temizleme<a class="headerlink" href="#log-temizleme" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">glob</span>
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
-<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
-<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">cleanup_old_logs</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">30</span><span class="p">):</span>
-<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Eski log dosyalarını temizle&quot;&quot;&quot;</span>
-<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>    <span class="n">cutoff_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">days</span><span class="p">)</span>
-<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>
-<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>    <span class="n">log_files</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;logs/*.log*&quot;</span><span class="p">)</span>
-<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>
-<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>    <span class="k">for</span> <span class="n">log_file</span> <span class="ow">in</span> <span class="n">log_files</span><span class="p">:</span>
-<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>        <span class="n">file_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getmtime</span><span class="p">(</span><span class="n">log_file</span><span class="p">))</span>
-<a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>
-<a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a>        <span class="k">if</span> <span class="n">file_time</span> <span class="o">&lt;</span> <span class="n">cutoff_date</span><span class="p">:</span>
-<a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a>            <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">log_file</span><span class="p">)</span>
-<a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a>            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Eski log dosyası silindi: </span><span class="si">{</span><span class="n">log_file</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</code></pre></div>
-<h2 id="guvenlik">Güvenlik<a class="headerlink" href="#guvenlik" title="Permanent link">&para;</a></h2>
-<h3 id="hassas-bilgi-maskeleme">Hassas Bilgi Maskeleme<a class="headerlink" href="#hassas-bilgi-maskeleme" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>
-<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="k">def</span><span class="w"> </span><span class="nf">mask_sensitive_data</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Hassas bilgileri maskele&quot;&quot;&quot;</span>
-<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>    <span class="c1"># API anahtarlarını maskele</span>
-<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>    <span class="k">if</span> <span class="s2">&quot;api_key&quot;</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
-<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>        <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="s2">&quot;***MASKED***&quot;</span><span class="p">)</span>
-<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>
-<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>    <span class="c1"># Email adreslerini maskele</span>
-<a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">re</span>
-<a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>    <span class="n">email_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b&#39;</span>
-<a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a>    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">email_pattern</span><span class="p">,</span> <span class="s2">&quot;***@***.***&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
-<a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a>
-<a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="c1"># Kullanım</span>
-<a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="n">sensitive_data</span> <span class="o">=</span> <span class="s2">&quot;API key: sk-1234567890abcdef&quot;</span>
-<a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;API çağrısı: </span><span class="si">{</span><span class="n">mask_sensitive_data</span><span class="p">(</span><span class="n">sensitive_data</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</code></pre></div>
-<h3 id="log-guvenligi">Log Güvenliği<a class="headerlink" href="#log-guvenligi" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1"># ❌ Yapma - Hassas bilgiyi loglama</span>
-<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;API anahtarı: </span><span class="si">{</span><span class="n">api_key</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>
-<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="c1"># ✅ Yap - Hassas bilgiyi maskele</span>
-<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;API çağrısı yapıldı: </span><span class="si">{</span><span class="n">endpoint</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
-<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="c1"># ❌ Yapma - Kullanıcı şifrelerini loglama</span>
-<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kullanıcı girişi: </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s2">, şifre: </span><span class="si">{</span><span class="n">password</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>
-<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="c1"># ✅ Yap - Sadece gerekli bilgiyi logla</span>
-<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Kullanıcı girişi: </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</code></pre></div>
-<h2 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h2>
-<h3 id="log-testleri">Log Testleri<a class="headerlink" href="#log-testleri" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">logging</span>
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">app.core.logging_config</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger</span>
-<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
-<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_logging_setup</span><span class="p">():</span>
-<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Loglama yapılandırmasını test et&quot;&quot;&quot;</span>
-<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>    <span class="k">assert</span> <span class="n">logger</span><span class="o">.</span><span class="n">level</span> <span class="o">==</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span>
-<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">logger</span><span class="o">.</span><span class="n">handlers</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span>
-<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>
-<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_log_file_creation</span><span class="p">():</span>
-<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Log dosyasının oluşturulduğunu test et&quot;&quot;&quot;</span>
-<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a>    <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="s2">&quot;logs/app.log&quot;</span><span class="p">)</span>
-<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>
-<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_log_content</span><span class="p">():</span>
-<a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Log içeriğini test et&quot;&quot;&quot;</span>
-<a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a>    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Test mesajı&quot;</span><span class="p">)</span>
-<a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a>
-<a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;logs/app.log&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-<a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a>        <span class="n">content</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a>        <span class="k">assert</span> <span class="s2">&quot;Test mesajı&quot;</span> <span class="ow">in</span> <span class="n">content</span>
-</code></pre></div>
-<h2 id="en-iyi-uygulamalar">En İyi Uygulamalar<a class="headerlink" href="#en-iyi-uygulamalar" title="Permanent link">&para;</a></h2>
-<h3 id="loglama-kurallar">Loglama Kuralları<a class="headerlink" href="#loglama-kurallar" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Uygun Seviye</strong>: Doğru log seviyesini kullanın</li>
-<li><strong>Açıklayıcı Mesajlar</strong>: Net ve anlaşılır mesajlar yazın</li>
-<li><strong>Structured Logging</strong>: Yapılandırılmış log formatı kullanın</li>
-<li><strong>Performance</strong>: Loglama performansı etkilememeli</li>
-</ol>
-<h3 id="guvenlik_1">Güvenlik<a class="headerlink" href="#guvenlik_1" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Hassas Bilgi</strong>: Hassas bilgileri loglamayın</li>
-<li><strong>Maskeleme</strong>: Gerekli durumlarda bilgileri maskeleyin</li>
-<li><strong>Erişim Kontrolü</strong>: Log dosyalarına erişimi sınırlayın</li>
-<li><strong>Retention</strong>: Log dosyalarını uygun süre saklayın</li>
-</ol>
-<h3 id="performans">Performans<a class="headerlink" href="#performans" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Asenkron Loglama</strong>: Uzun süren işlemler için asenkron loglama</li>
-<li><strong>Log Rotation</strong>: Log dosyalarını döndürün</li>
-<li><strong>Level Control</strong>: Üretimde uygun log seviyesi kullanın</li>
-<li><strong>Monitoring</strong>: Log performansını izleyin</li>
-</ol>
+<p>Gerekli durumlarda, loglamadan önce veriyi maskeleyen yardımcı fonksiyonlar kullanın.</p>
 
 
 
@@ -1716,7 +1227,7 @@
     <span class="md-icon" title="Son Güncelleme">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 Ekim 2025 14:18:12 UTC">12 Ekim 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="22 Ekim 2025 11:51:19 UTC">22 Ekim 2025</span>
   </span>
 
     

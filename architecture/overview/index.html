@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://hanifekaptan.github.io/aspectify/architecture/overview/">
+        <link rel="canonical" href="https://hanifekaptan.github.io/Aspectify/architecture/overview/">
       
       
         <link rel="prev" href="../../getting-started/quick-start/">
       
       
-        <link rel="next" href="../core/">
+        <link rel="next" href="../request-lifecycle/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#architecture-overview" class="md-skip">
+        <a href="#system-architecture" class="md-skip">
           Skip to content
         </a>
       
@@ -220,7 +220,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/hanifekaptan/aspectify" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/hanifekaptan/Aspectify" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -314,27 +314,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../api/absa-agent/" class="md-tabs__link">
-          
-  
-  
-  API Reference
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../development/logging/" class="md-tabs__link">
+        <a href="../../development/coding-standards/" class="md-tabs__link">
           
   
   
@@ -354,11 +334,31 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../deployment/requirements/" class="md-tabs__link">
+        <a href="../../deployment/infrastructure/" class="md-tabs__link">
           
   
   
   Deployment
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../api-reference/endpoints.md" class="md-tabs__link">
+          
+  
+  
+  API Reference
 
         </a>
       </li>
@@ -400,7 +400,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/hanifekaptan/aspectify" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/hanifekaptan/Aspectify" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -661,73 +661,73 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#system-architecture" class="md-nav__link">
+  <a href="#overall-architecture" class="md-nav__link">
     <span class="md-ellipsis">
-      System Architecture
+      Overall Architecture
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#core-components" class="md-nav__link">
+  <a href="#module-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Core Components
+      Module Structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Core Components">
+    <nav class="md-nav" aria-label="Module Structure">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-agents-appagents" class="md-nav__link">
+  <a href="#core" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Agents (app/agents/)
+      🏗️ Core
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-ai-models-appai_models" class="md-nav__link">
+  <a href="#agents" class="md-nav__link">
     <span class="md-ellipsis">
-      2. AI Models (app/ai_models/)
+      🤖 Agents
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-tools-apptools" class="md-nav__link">
+  <a href="#ai-models" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Tools (app/tools/)
+      🧠 AI Models
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-logic-applogic" class="md-nav__link">
+  <a href="#logic" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Logic (app/logic/)
+      🔧 Logic
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-schemas-appschemas" class="md-nav__link">
+  <a href="#tools" class="md-nav__link">
     <span class="md-ellipsis">
-      5. Schemas (app/schemas/)
+      🛠️ Tools
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-core-appcore" class="md-nav__link">
+  <a href="#schemas" class="md-nav__link">
     <span class="md-ellipsis">
-      6. Core (app/core/)
+      📋 Schemas
     </span>
   </a>
   
@@ -749,18 +749,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#text-analysis-flow" class="md-nav__link">
+  <a href="#1-input-processing" class="md-nav__link">
     <span class="md-ellipsis">
-      Text Analysis Flow
+      1. Input Processing
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#audio-analysis-flow" class="md-nav__link">
+  <a href="#2-content-preparation" class="md-nav__link">
     <span class="md-ellipsis">
-      Audio Analysis Flow
+      2. Content Preparation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-analysis-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Analysis Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-result-formatting" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Result Formatting
     </span>
   </a>
   
@@ -772,46 +790,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#design-principles" class="md-nav__link">
+  <a href="#technology-stack" class="md-nav__link">
     <span class="md-ellipsis">
-      Design Principles
+      Technology Stack
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Design Principles">
+    <nav class="md-nav" aria-label="Technology Stack">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-separation-of-concerns" class="md-nav__link">
+  <a href="#backend" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Separation of Concerns
+      Backend
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-dependency-injection" class="md-nav__link">
+  <a href="#aiml" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Dependency Injection
+      AI/ML
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-error-handling" class="md-nav__link">
+  <a href="#infrastructure" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Error Handling
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-configuration-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Configuration Management
+      Infrastructure
     </span>
   </a>
   
@@ -823,121 +832,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#scalability-considerations" class="md-nav__link">
+  <a href="#future-plans" class="md-nav__link">
     <span class="md-ellipsis">
-      Scalability Considerations
+      Future Plans
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Scalability Considerations">
+    <nav class="md-nav" aria-label="Future Plans">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-asyncawait-pattern" class="md-nav__link">
+  <a href="#short-term" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Async/Await Pattern
+      Short-Term
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-modular-design" class="md-nav__link">
+  <a href="#long-term" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Modular Design
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-external-service-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. External Service Integration
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Security Considerations
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Security Considerations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-api-key-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. API Key Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-input-validation" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Input Validation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-error-information" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Error Information
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#performance-optimizations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performance Optimizations
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Performance Optimizations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-caching" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Caching
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-rate-limiting" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Rate Limiting
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-resource-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Resource Management
+      Long-Term
     </span>
   </a>
   
@@ -964,12 +880,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../core/" class="md-nav__link">
+      <a href="../request-lifecycle/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Core Modules
+    Request-Lifecycle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tech-stack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech-Stack
     
   </span>
   
@@ -1017,7 +956,7 @@
   
   
   <span class="md-ellipsis">
-    API Reference
+    Development
     
   </span>
   
@@ -1028,7 +967,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            API Reference
+            Development
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1039,12 +978,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/absa-agent/" class="md-nav__link">
+      <a href="../../development/coding-standards/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    ABSA Agent
+    Coding-Standarts
     
   </span>
   
@@ -1062,12 +1001,58 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/response-models/" class="md-nav__link">
+      <a href="../../development/local-setup/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Response Models
+    Local-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/logging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/testing-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing-Guide
     
   </span>
   
@@ -1115,7 +1100,7 @@
   
   
   <span class="md-ellipsis">
-    Development
+    Deployment
     
   </span>
   
@@ -1126,7 +1111,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Development
+            Deployment
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1137,7 +1122,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/logging/" class="md-nav__link">
+      <a href="../../deployment/infrastructure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Infrastructure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/production-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Production-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/logging/" class="md-nav__link">
         
   
   
@@ -1190,7 +1221,7 @@
   
   
   <span class="md-ellipsis">
-    Deployment
+    API Reference
     
   </span>
   
@@ -1201,7 +1232,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Deployment
+            API Reference
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1212,12 +1243,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/requirements/" class="md-nav__link">
+      <a href="../../api-reference/endpoints.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Requirements
+    Endpoints
     
   </span>
   
@@ -1235,12 +1266,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/environment/" class="md-nav__link">
+      <a href="../../api-reference/schemas.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Environment Setup
+    Schemas
     
   </span>
   
@@ -1274,188 +1305,135 @@
 
 
 
-<h1 id="architecture-overview">Architecture Overview<a class="headerlink" href="#architecture-overview" title="Permanent link">&para;</a></h1>
-<p>Aspectify follows a modular, layered architecture designed for maintainability, scalability, and clear separation of concerns.</p>
-<h2 id="system-architecture">System Architecture<a class="headerlink" href="#system-architecture" title="Permanent link">&para;</a></h2>
-<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>graph TB
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[Main Application] --&gt; B[ABSA Agent]
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt; C[Content Type Identifier]
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    B --&gt; D[Language Detector]
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    B --&gt; E[Transcriber]
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    B --&gt; F[ABSA Analyzer]
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    F --&gt; G[AI Models]
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    G --&gt; H[Google Gemini]
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    B --&gt; I[Response Schemas]
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    I --&gt; J[ABSA Response]
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    I --&gt; K[Aspect Response]
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    L[Core] --&gt; M[Configuration]
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    L --&gt; N[Logging]
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    O[Logic] --&gt; P[Content Processing]
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>    O --&gt; Q[Language Detection]
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    O --&gt; R[Audio Transcription]
+<h1 id="system-architecture">System Architecture<a class="headerlink" href="#system-architecture" title="Permanent link">&para;</a></h1>
+<p>Aspectify is a sentiment analysis platform developed using a modern Python architecture.</p>
+<h2 id="overall-architecture">Overall Architecture<a class="headerlink" href="#overall-architecture" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌─────────────────────────────────────────────────────────────┐
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│                    Aspectify Platform                       │
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├─────────────────────────────────────────────────────────────┤
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  API Layer (FastAPI)                                        │
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│  ├── Endpoints &amp; Authentication                             │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  └── Request/Response Models                                │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├─────────────────────────────────────────────────────────────┤
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│  Core Logic &amp; Services Layer                                │
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  ├── Agents (Orchestration &amp; Business Rules)                │
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│  ├── Business Services (e.g., AnalysisService)              │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  └── AI/ML Services (Internal Wrappers)                     │
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│      ├── LLM Service (Gemini)                               │
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│      └── Transcription Service (Whisper)                    │
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>├─────────────────────────────────────────────────────────────┤
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│  Data Layer                                                 │
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│  ├── Database (PostgreSQL, Pinecone)                        │
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│  └── File Storage                                           │
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>└─────────────────────────────────────────────────────────────┘
 </code></pre></div>
-<h2 id="core-components">Core Components<a class="headerlink" href="#core-components" title="Permanent link">&para;</a></h2>
-<h3 id="1-agents-appagents">1. Agents (<code>app/agents/</code>)<a class="headerlink" href="#1-agents-appagents" title="Permanent link">&para;</a></h3>
-<p>High-level orchestration layer that coordinates the analysis workflow:</p>
-<ul>
-<li><strong>ABSA Agent</strong>: Main orchestrator for aspect-based sentiment analysis</li>
-<li>Handles content type detection, transcription, and analysis coordination</li>
-<li>Manages error handling and response formatting</li>
-</ul>
-<h3 id="2-ai-models-appai_models">2. AI Models (<code>app/ai_models/</code>)<a class="headerlink" href="#2-ai-models-appai_models" title="Permanent link">&para;</a></h3>
-<p>Integration layer for AI model services:</p>
-<ul>
-<li><strong>LLM Models</strong>: Google Gemini model integration</li>
-<li><strong>Whisper Models</strong>: Audio transcription model integration</li>
-<li>Handles model configuration and API communication</li>
-</ul>
-<h3 id="3-tools-apptools">3. Tools (<code>app/tools/</code>)<a class="headerlink" href="#3-tools-apptools" title="Permanent link">&para;</a></h3>
-<p>Specialized analysis tools and utilities:</p>
-<ul>
-<li><strong>ABSA Analyzer</strong>: Core sentiment analysis tool using LangChain</li>
-<li>Provides structured analysis with aspect extraction</li>
-<li>Handles prompt engineering and response parsing</li>
-</ul>
-<h3 id="4-logic-applogic">4. Logic (<code>app/logic/</code>)<a class="headerlink" href="#4-logic-applogic" title="Permanent link">&para;</a></h3>
-<p>Core business logic for content processing:</p>
-<ul>
-<li><strong>Content Type Identifier</strong>: Determines if input is text or audio</li>
-<li><strong>Language Detector</strong>: Identifies content language</li>
-<li><strong>Transcriber</strong>: Converts audio to text</li>
-</ul>
-<h3 id="5-schemas-appschemas">5. Schemas (<code>app/schemas/</code>)<a class="headerlink" href="#5-schemas-appschemas" title="Permanent link">&para;</a></h3>
-<p>Data models and validation:</p>
-<ul>
-<li><strong>Request Schemas</strong>: Input validation models</li>
-<li><strong>Response Schemas</strong>: Output structure definitions</li>
-<li>Ensures type safety and data consistency</li>
-</ul>
-<h3 id="6-core-appcore">6. Core (<code>app/core/</code>)<a class="headerlink" href="#6-core-appcore" title="Permanent link">&para;</a></h3>
-<p>Infrastructure and configuration:</p>
-<ul>
-<li><strong>Configuration</strong>: Environment and application settings</li>
-<li><strong>Logging</strong>: Centralized logging system</li>
-<li>Provides foundation services for the entire application</li>
-</ul>
+<h2 id="module-structure">Module Structure<a class="headerlink" href="#module-structure" title="Permanent link">&para;</a></h2>
+<h3 id="core">🏗️ Core<a class="headerlink" href="#core" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>app/core/
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>├── config.py          # Configuration management
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>└── logging_config.py  # Logging configuration
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- Application configuration
+- Environment variable management
+- Logging system</p>
+<h3 id="agents">🤖 Agents<a class="headerlink" href="#agents" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>app/agents/
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>└── absa_agent.py      # Main ABSA analysis agent
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- Workflow management
+- Data processing coordination
+- Result formatting</p>
+<h3 id="ai-models">🧠 AI Models<a class="headerlink" href="#ai-models" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>app/ai_models/
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>├── llm_models.py           # LLM model management
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>└── openai_whisper_models.py # Whisper model management
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- AI model connections
+- Model configuration</p>
+<h3 id="logic">🔧 Logic<a class="headerlink" href="#logic" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>app/logic/
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├── content_type_identifier.py  # Content type identification
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>├── language_detector.py        # Language detection
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>└── transcriber.py              # Audio transcription
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- Content type analysis
+- Language detection
+- Audio file processing</p>
+<h3 id="tools">🛠️ Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>app/tools/
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>└── absa_analyzer.py    # ABSA analysis tool
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- Sentiment analysis processing
+- Aspect identification
+- Result formatting</p>
+<h3 id="schemas">📋 Schemas<a class="headerlink" href="#schemas" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>app/schemas/
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>├── request/
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>│   └── multi_modal_request.py  # Request models
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>└── response/
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    ├── absa_response.py        # ABSA response model
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    ├── aspect_response.py      # Aspect response model
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    └── llm_response.py         # LLM response model
+</code></pre></div>
+<p><strong>Responsibilities:</strong>
+- Data validation
+- API contracts
+- Type safety</p>
 <h2 id="data-flow">Data Flow<a class="headerlink" href="#data-flow" title="Permanent link">&para;</a></h2>
-<h3 id="text-analysis-flow">Text Analysis Flow<a class="headerlink" href="#text-analysis-flow" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Input</strong>: Text string received</li>
-<li><strong>Content Type</strong>: Identified as text</li>
-<li><strong>Language Detection</strong>: Language determined</li>
-<li><strong>ABSA Analysis</strong>: Sentiment analysis performed</li>
-<li><strong>Response</strong>: Structured results returned</li>
-</ol>
-<h3 id="audio-analysis-flow">Audio Analysis Flow<a class="headerlink" href="#audio-analysis-flow" title="Permanent link">&para;</a></h3>
-<ol>
-<li><strong>Input</strong>: Audio file path received</li>
-<li><strong>Content Type</strong>: Identified as audio</li>
-<li><strong>Transcription</strong>: Audio converted to text</li>
-<li><strong>Language Detection</strong>: Language determined</li>
-<li><strong>ABSA Analysis</strong>: Sentiment analysis performed</li>
-<li><strong>Response</strong>: Structured results returned</li>
-</ol>
-<h2 id="design-principles">Design Principles<a class="headerlink" href="#design-principles" title="Permanent link">&para;</a></h2>
-<h3 id="1-separation-of-concerns">1. Separation of Concerns<a class="headerlink" href="#1-separation-of-concerns" title="Permanent link">&para;</a></h3>
-<p>Each module has a single, well-defined responsibility:</p>
-<ul>
-<li><strong>Agents</strong>: Orchestration and workflow management</li>
-<li><strong>Tools</strong>: Specific analysis capabilities</li>
-<li><strong>Logic</strong>: Business rules and processing</li>
-<li><strong>Schemas</strong>: Data structure definitions</li>
-<li><strong>Core</strong>: Infrastructure services</li>
-</ul>
-<h3 id="2-dependency-injection">2. Dependency Injection<a class="headerlink" href="#2-dependency-injection" title="Permanent link">&para;</a></h3>
-<p>Components receive their dependencies rather than creating them:</p>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Good: Dependency injection</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">analyze_text</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">analyzer</span><span class="p">:</span> <span class="n">ABSAAnalyzer</span><span class="p">):</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="k">return</span> <span class="n">analyzer</span><span class="o">.</span><span class="n">analyze</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># Avoid: Direct instantiation</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="k">def</span><span class="w"> </span><span class="nf">analyze_text</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    <span class="n">analyzer</span> <span class="o">=</span> <span class="n">ABSAAnalyzer</span><span class="p">()</span>  <span class="c1"># Tight coupling</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    <span class="k">return</span> <span class="n">analyzer</span><span class="o">.</span><span class="n">analyze</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<h3 id="1-input-processing">1. Input Processing<a class="headerlink" href="#1-input-processing" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>User Input → Content Type Identification → Language Detection
 </code></pre></div>
-<h3 id="3-error-handling">3. Error Handling<a class="headerlink" href="#3-error-handling" title="Permanent link">&para;</a></h3>
-<p>Comprehensive error handling at each layer:</p>
-<ul>
-<li><strong>Input Validation</strong>: Schema validation for inputs</li>
-<li><strong>Business Logic</strong>: Graceful handling of processing errors</li>
-<li><strong>External Services</strong>: Retry logic and fallback mechanisms</li>
-<li><strong>Logging</strong>: Detailed error logging for debugging</li>
-</ul>
-<h3 id="4-configuration-management">4. Configuration Management<a class="headerlink" href="#4-configuration-management" title="Permanent link">&para;</a></h3>
-<p>Centralized configuration with environment-specific settings:</p>
-<ul>
-<li><strong>Environment Variables</strong>: Secure configuration storage</li>
-<li><strong>Type Safety</strong>: Pydantic-based configuration validation</li>
-<li><strong>Default Values</strong>: Sensible defaults for all settings</li>
-</ul>
-<h2 id="scalability-considerations">Scalability Considerations<a class="headerlink" href="#scalability-considerations" title="Permanent link">&para;</a></h2>
-<h3 id="1-asyncawait-pattern">1. Async/Await Pattern<a class="headerlink" href="#1-asyncawait-pattern" title="Permanent link">&para;</a></h3>
-<p>All I/O operations use async/await for better performance:</p>
-<div class="language-python highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">run_absa</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ABSAResponse</span><span class="p">:</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="c1"># Non-blocking operations</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="n">content_type</span> <span class="o">=</span> <span class="n">identify_content_type</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    <span class="k">if</span> <span class="n">is_audio_path</span><span class="p">:</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>        <span class="n">text_content</span> <span class="o">=</span> <span class="k">await</span> <span class="n">transcribe_from_path</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="c1"># ...</span>
+<h3 id="2-content-preparation">2. Content Preparation<a class="headerlink" href="#2-content-preparation" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Audio File → Transcription → Text
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>Text → Direct Processing
 </code></pre></div>
-<h3 id="2-modular-design">2. Modular Design<a class="headerlink" href="#2-modular-design" title="Permanent link">&para;</a></h3>
-<p>Easy to extend with new analysis types:</p>
+<h3 id="3-analysis-process">3. Analysis Process<a class="headerlink" href="#3-analysis-process" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Text → ABSA Tool → LLM Model → Result
+</code></pre></div>
+<h3 id="4-result-formatting">4. Result Formatting<a class="headerlink" href="#4-result-formatting" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Raw Result → Pydantic Model → JSON Response
+</code></pre></div>
+<h2 id="technology-stack">Technology Stack<a class="headerlink" href="#technology-stack" title="Permanent link">&para;</a></h2>
+<h3 id="backend">Backend<a class="headerlink" href="#backend" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Add new agents for different analysis types</li>
-<li>Implement new tools for specialized processing</li>
-<li>Extend schemas for new data structures</li>
+<li><strong>Python 3.10</strong>: Main programming language</li>
+<li><strong>FastAPI</strong>: Web framework</li>
+<li><strong>Pydantic</strong>: Data validation</li>
 </ul>
-<h3 id="3-external-service-integration">3. External Service Integration<a class="headerlink" href="#3-external-service-integration" title="Permanent link">&para;</a></h3>
-<p>Clean separation from external services:</p>
+<h3 id="aiml">AI/ML<a class="headerlink" href="#aiml" title="Permanent link">&para;</a></h3>
 <ul>
-<li>AI model integration through dedicated modules</li>
-<li>Easy to swap or add new model providers</li>
-<li>Rate limiting and error handling built-in</li>
+<li><strong>Google Gemini</strong>: LLM model</li>
+<li><strong>OpenAI Whisper</strong>: Speech-to-text transcription</li>
+<li><strong>LangChain</strong>: AI framework</li>
 </ul>
-<h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Permanent link">&para;</a></h2>
-<h3 id="1-api-key-management">1. API Key Management<a class="headerlink" href="#1-api-key-management" title="Permanent link">&para;</a></h3>
+<h3 id="infrastructure">Infrastructure<a class="headerlink" href="#infrastructure" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Secure storage in environment variables</li>
-<li>Pydantic SecretStr for sensitive data</li>
-<li>No hardcoded credentials</li>
+<li><strong>Docker</strong>: Containerization</li>
+<li><strong>MkDocs</strong>: Documentation</li>
+<li><strong>GitHub Pages</strong>: Documentation hosting</li>
 </ul>
-<h3 id="2-input-validation">2. Input Validation<a class="headerlink" href="#2-input-validation" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Schema-based validation for all inputs</li>
-<li>Sanitization of user-provided data</li>
-<li>Type checking throughout the system</li>
+<h2 id="future-plans">Future Plans<a class="headerlink" href="#future-plans" title="Permanent link">&para;</a></h2>
+<h3 id="short-term">Short-Term<a class="headerlink" href="#short-term" title="Permanent link">&para;</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> API endpoints and validation</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Language detection independent of the application flow</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Caching step</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Text preprocessing before analysis</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Web interface</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Structural and vector database setup</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Logging setup</li>
 </ul>
-<h3 id="3-error-information">3. Error Information<a class="headerlink" href="#3-error-information" title="Permanent link">&para;</a></h3>
-<ul>
-<li>No sensitive information in error messages</li>
-<li>Comprehensive logging for debugging</li>
-<li>Graceful degradation on failures</li>
-</ul>
-<h2 id="performance-optimizations">Performance Optimizations<a class="headerlink" href="#performance-optimizations" title="Permanent link">&para;</a></h2>
-<h3 id="1-caching">1. Caching<a class="headerlink" href="#1-caching" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Model instances cached for reuse</li>
-<li>Configuration loaded once at startup</li>
-<li>Efficient memory usage patterns</li>
-</ul>
-<h3 id="2-rate-limiting">2. Rate Limiting<a class="headerlink" href="#2-rate-limiting" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Built-in delays for API calls</li>
-<li>Respectful of external service limits</li>
-<li>Configurable retry mechanisms</li>
-</ul>
-<h3 id="3-resource-management">3. Resource Management<a class="headerlink" href="#3-resource-management" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Proper cleanup of resources</li>
-<li>Efficient file handling</li>
-<li>Memory-conscious data structures</li>
+<h3 id="long-term">Long-Term<a class="headerlink" href="#long-term" title="Permanent link">&para;</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Task scoping with advanced prompt structures</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Advanced analysis</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Visual analysis</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Backend enhancements</li>
 </ul>
 
 
@@ -1477,7 +1455,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 12, 2025 14:18:12 UTC">October 12, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 22, 2025 11:51:19 UTC">October 22, 2025</span>
   </span>
 
     

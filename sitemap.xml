@@ -1,157 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/api/absa-agent/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/api/endpoints/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/api/absa-agent/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/api/absa-agent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/api/endpoints/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/api/endpoints/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/api/response-models/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/api/schemas/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/api/response-models/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/api/response-models/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/api/schemas/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/api/schemas/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/architecture/core/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/architecture/overview/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/architecture/core/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/architecture/core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/overview/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/overview/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/architecture/overview/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/architecture/request-lifecycle/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/architecture/overview/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/architecture/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/request-lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/request-lifecycle/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/deployment/environment/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/architecture/tech-stack/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/deployment/environment/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/deployment/environment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/tech-stack/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/tech-stack/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/deployment/requirements/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/deployment/infrastructure/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/deployment/requirements/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/deployment/requirements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/infrastructure/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/development/logging/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/deployment/logging/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/development/logging/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/development/logging/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/logging/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/logging/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/getting-started/configuration/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/deployment/production-setup/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/production-setup/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/production-setup/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/getting-started/installation/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/development/coding-standards/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/installation/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/coding-standards/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/coding-standards/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/getting-started/quick-start/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/development/local-setup/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/quick-start/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/quick-start/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/local-setup/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/local-setup/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/development/logging/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/logging/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/logging/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/api/absa-agent/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/development/testing-guide/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/api/absa-agent/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/api/absa-agent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/testing-guide/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/testing-guide/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/api/response-models/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/getting-started/configuration/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/api/response-models/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/api/response-models/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/configuration/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/architecture/core/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/getting-started/installation/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/architecture/core/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/architecture/core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/installation/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/architecture/overview/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/getting-started/quick-start/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/architecture/overview/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/architecture/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/quick-start/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/quick-start/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/deployment/environment/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/deployment/environment/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/deployment/environment/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/deployment/requirements/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/api/endpoints/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/deployment/requirements/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/deployment/requirements/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/api/endpoints/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/api/endpoints/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/development/logging/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/api/schemas/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/development/logging/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/development/logging/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/api/schemas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/api/schemas/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/getting-started/configuration/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/architecture/overview/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/overview/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/getting-started/installation/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/architecture/request-lifecycle/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/installation/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/request-lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/request-lifecycle/"/>
     </url>
     <url>
-        <loc>https://hanifekaptan.github.io/aspectify/tr/getting-started/quick-start/</loc>
-        <lastmod>2025-10-12</lastmod>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/architecture/tech-stack/</loc>
+        <lastmod>2025-10-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/aspectify/tr/getting-started/quick-start/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/aspectify/getting-started/quick-start/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/tech-stack/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/architecture/tech-stack/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/deployment/infrastructure/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/deployment/logging/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/logging/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/logging/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/deployment/production-setup/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/deployment/production-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/deployment/production-setup/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/development/coding-standards/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/coding-standards/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/coding-standards/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/development/local-setup/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/local-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/local-setup/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/development/logging/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/logging/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/logging/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/development/testing-guide/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/development/testing-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/development/testing-guide/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/getting-started/configuration/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/configuration/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/getting-started/installation/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/installation/"/>
+    </url>
+    <url>
+        <loc>https://hanifekaptan.github.io/Aspectify/tr/getting-started/quick-start/</loc>
+        <lastmod>2025-10-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://hanifekaptan.github.io/Aspectify/tr/getting-started/quick-start/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hanifekaptan.github.io/Aspectify/getting-started/quick-start/"/>
     </url>
 </urlset>

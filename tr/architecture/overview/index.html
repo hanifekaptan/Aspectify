@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://hanifekaptan.github.io/aspectify/tr/architecture/overview/">
+        <link rel="canonical" href="https://hanifekaptan.github.io/Aspectify/tr/architecture/overview/">
       
       
         <link rel="prev" href="../../getting-started/quick-start/">
       
       
-        <link rel="next" href="../core/">
+        <link rel="next" href="../request-lifecycle/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -220,7 +220,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/hanifekaptan/aspectify" title="Depoya git" class="md-source" data-md-component="source">
+        <a href="https://github.com/hanifekaptan/Aspectify" title="Depoya git" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -314,27 +314,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../api/absa-agent/" class="md-tabs__link">
-          
-  
-  
-  API Reference
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../development/logging/" class="md-tabs__link">
+        <a href="../../development/coding-standards/" class="md-tabs__link">
           
   
   
@@ -354,11 +334,31 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../deployment/requirements/" class="md-tabs__link">
+        <a href="../../deployment/infrastructure/" class="md-tabs__link">
           
   
   
   Deployment
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../api-reference/endpoints.md" class="md-tabs__link">
+          
+  
+  
+  API Reference
 
         </a>
       </li>
@@ -400,7 +400,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/hanifekaptan/aspectify" title="Depoya git" class="md-source" data-md-component="source">
+      <a href="https://github.com/hanifekaptan/Aspectify" title="Depoya git" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -832,105 +832,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#guvenlik" class="md-nav__link">
-    <span class="md-ellipsis">
-      Güvenlik
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Güvenlik">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#api-guvenligi" class="md-nav__link">
-    <span class="md-ellipsis">
-      API Güvenliği
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#veri-guvenligi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Veri Güvenliği
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#olceklenebilirlik" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ölçeklenebilirlik
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ölçeklenebilirlik">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#yatay-olcekleme" class="md-nav__link">
-    <span class="md-ellipsis">
-      Yatay Ölçekleme
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dikey-olcekleme" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dikey Ölçekleme
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#performans" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performans
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Performans">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#optimizasyon-stratejileri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Optimizasyon Stratejileri
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#izleme" class="md-nav__link">
-    <span class="md-ellipsis">
-      İzleme
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#gelecek-planlar" class="md-nav__link">
     <span class="md-ellipsis">
       Gelecek Planları
@@ -979,12 +880,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../core/" class="md-nav__link">
+      <a href="../request-lifecycle/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Core Modules
+    Request-Lifecycle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tech-stack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tech-Stack
     
   </span>
   
@@ -1032,7 +956,7 @@
   
   
   <span class="md-ellipsis">
-    API Reference
+    Development
     
   </span>
   
@@ -1043,7 +967,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            API Reference
+            Development
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1054,12 +978,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/absa-agent/" class="md-nav__link">
+      <a href="../../development/coding-standards/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    ABSA Agent
+    Coding-Standarts
     
   </span>
   
@@ -1077,12 +1001,58 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/response-models/" class="md-nav__link">
+      <a href="../../development/local-setup/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Response Models
+    Local-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/logging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/testing-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing-Guide
     
   </span>
   
@@ -1130,7 +1100,7 @@
   
   
   <span class="md-ellipsis">
-    Development
+    Deployment
     
   </span>
   
@@ -1141,7 +1111,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Development
+            Deployment
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1152,7 +1122,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/logging/" class="md-nav__link">
+      <a href="../../deployment/infrastructure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Infrastructure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/production-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Production-Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/logging/" class="md-nav__link">
         
   
   
@@ -1205,7 +1221,7 @@
   
   
   <span class="md-ellipsis">
-    Deployment
+    API Reference
     
   </span>
   
@@ -1216,7 +1232,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Deployment
+            API Reference
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1227,12 +1243,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/requirements/" class="md-nav__link">
+      <a href="../../../api-reference/endpoints.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Requirements
+    Endpoints
     
   </span>
   
@@ -1250,12 +1266,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/environment/" class="md-nav__link">
+      <a href="../../../api-reference/schemas.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Environment Setup
+    Schemas
     
   </span>
   
@@ -1293,28 +1309,23 @@
 <p>Aspectify, modern Python mimarisi kullanarak geliştirilmiş bir duygu analizi platformudur.</p>
 <h2 id="genel-mimari">Genel Mimari<a class="headerlink" href="#genel-mimari" title="Permanent link">&para;</a></h2>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌─────────────────────────────────────────────────────────────┐
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│                    Aspectify Platform                      │
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│                    Aspectify Platform                       │
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├─────────────────────────────────────────────────────────────┤
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  API Layer (FastAPI)                                       │
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│  ├── Endpoints                                             │
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  ├── Request/Response Models                               │
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│  └── Authentication                                        │
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├─────────────────────────────────────────────────────────────┤
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  Business Logic Layer                                      │
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│  ├── Agents (ABSA Agent)                                  │
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  ├── Services                                             │
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│  └── Tools                                                │
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>├─────────────────────────────────────────────────────────────┤
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│  AI/ML Layer                                              │
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│  ├── LLM Models (Gemini)                                  │
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│  ├── Transcription (Whisper)                              │
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│  └── Language Detection                                   │
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>├─────────────────────────────────────────────────────────────┤
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│  Data Layer                                               │
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│  ├── Database (PostgreSQL)                                │
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│  ├── Vector Database (Pinecone)                           │
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│  └── File Storage                                         │
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>└─────────────────────────────────────────────────────────────┘
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  API Layer (FastAPI)                                        │
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│  ├── Endpoints &amp; Authentication                             │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  └── Request/Response Models                                │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├─────────────────────────────────────────────────────────────┤
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│  Core Logic &amp; Services Layer                                │
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  ├── Agents (Orchestration &amp; Business Rules)                │
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│  ├── Business Services (e.g., AnalysisService)              │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  └── AI/ML Services (Internal Wrappers)                     │
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│      ├── LLM Service (Gemini)                               │
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│      └── Transcription Service (Whisper)                    │
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>├─────────────────────────────────────────────────────────────┤
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│  Data Layer                                                 │
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│  ├── Database (PostgreSQL, Pinecone)                        │
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│  └── File Storage                                           │
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>└─────────────────────────────────────────────────────────────┘
 </code></pre></div>
 <h2 id="modul-yaps">Modül Yapısı<a class="headerlink" href="#modul-yaps" title="Permanent link">&para;</a></h2>
 <h3 id="core-cekirdek">🏗️ Core (Çekirdek)<a class="headerlink" href="#core-cekirdek" title="Permanent link">&para;</a></h3>
@@ -1341,8 +1352,7 @@
 </code></pre></div>
 <p><strong>Sorumluluklar:</strong>
 - AI model bağlantıları
-- Model yapılandırması
-- API yönetimi</p>
+- Model yapılandırması</p>
 <h3 id="logic-mantk">🔧 Logic (Mantık)<a class="headerlink" href="#logic-mantk" title="Permanent link">&para;</a></h3>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>app/logic/
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├── content_type_identifier.py  # İçerik türü belirleme
@@ -1359,7 +1369,7 @@
 </code></pre></div>
 <p><strong>Sorumluluklar:</strong>
 - Duygu analizi işlemi
-- Aspekt çıkarma
+- Aspect belirleme
 - Sonuç formatlama</p>
 <h3 id="schemas-semalar">📋 Schemas (Şemalar)<a class="headerlink" href="#schemas-semalar" title="Permanent link">&para;</a></h3>
 <div class="language-text highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>app/schemas/
@@ -1367,7 +1377,7 @@
 <a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>│   └── multi_modal_request.py  # İstek modelleri
 <a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>└── response/
 <a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    ├── absa_response.py        # ABSA yanıt modeli
-<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    ├── aspect_response.py      # Aspekt yanıt modeli
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    ├── aspect_response.py      # Aspect yanıt modeli
 <a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    └── llm_response.py         # LLM yanıt modeli
 </code></pre></div>
 <p><strong>Sorumluluklar:</strong>
@@ -1391,85 +1401,39 @@
 <h2 id="teknoloji-ygn">Teknoloji Yığını<a class="headerlink" href="#teknoloji-ygn" title="Permanent link">&para;</a></h2>
 <h3 id="backend">Backend<a class="headerlink" href="#backend" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Python 3.8+</strong>: Ana programlama dili</li>
+<li><strong>Python 3.10</strong>: Ana programlama dili</li>
 <li><strong>FastAPI</strong>: Web framework</li>
 <li><strong>Pydantic</strong>: Veri doğrulama</li>
-<li><strong>SQLAlchemy</strong>: ORM</li>
-<li><strong>PostgreSQL</strong>: Ana veritabanı</li>
 </ul>
 <h3 id="aiml">AI/ML<a class="headerlink" href="#aiml" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Google Gemini</strong>: LLM modeli</li>
 <li><strong>OpenAI Whisper</strong>: Ses transkripsiyonu</li>
 <li><strong>LangChain</strong>: AI framework</li>
-<li><strong>Pinecone</strong>: Vektör veritabanı</li>
 </ul>
 <h3 id="altyap">Altyapı<a class="headerlink" href="#altyap" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Docker</strong>: Konteynerleştirme</li>
 <li><strong>MkDocs</strong>: Dokümantasyon</li>
-<li><strong>GitHub Actions</strong>: CI/CD</li>
 <li><strong>GitHub Pages</strong>: Dokümantasyon hosting</li>
-</ul>
-<h2 id="guvenlik">Güvenlik<a class="headerlink" href="#guvenlik" title="Permanent link">&para;</a></h2>
-<h3 id="api-guvenligi">API Güvenliği<a class="headerlink" href="#api-guvenligi" title="Permanent link">&para;</a></h3>
-<ul>
-<li>API anahtarı yönetimi</li>
-<li>Rate limiting</li>
-<li>Input validation</li>
-<li>Error handling</li>
-</ul>
-<h3 id="veri-guvenligi">Veri Güvenliği<a class="headerlink" href="#veri-guvenligi" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Şifreli bağlantılar</li>
-<li>Hassas veri maskeleme</li>
-<li>Log güvenliği</li>
-<li>Backup stratejileri</li>
-</ul>
-<h2 id="olceklenebilirlik">Ölçeklenebilirlik<a class="headerlink" href="#olceklenebilirlik" title="Permanent link">&para;</a></h2>
-<h3 id="yatay-olcekleme">Yatay Ölçekleme<a class="headerlink" href="#yatay-olcekleme" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Mikroservis mimarisi</li>
-<li>Load balancing</li>
-<li>Database sharding</li>
-<li>Cache katmanları</li>
-</ul>
-<h3 id="dikey-olcekleme">Dikey Ölçekleme<a class="headerlink" href="#dikey-olcekleme" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Kaynak optimizasyonu</li>
-<li>Model optimizasyonu</li>
-<li>Memory management</li>
-<li>CPU utilization</li>
-</ul>
-<h2 id="performans">Performans<a class="headerlink" href="#performans" title="Permanent link">&para;</a></h2>
-<h3 id="optimizasyon-stratejileri">Optimizasyon Stratejileri<a class="headerlink" href="#optimizasyon-stratejileri" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Asenkron işleme</li>
-<li>Connection pooling</li>
-<li>Caching mechanisms</li>
-<li>Batch processing</li>
-</ul>
-<h3 id="izleme">İzleme<a class="headerlink" href="#izleme" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Application metrics</li>
-<li>Performance monitoring</li>
-<li>Error tracking</li>
-<li>Resource utilization</li>
 </ul>
 <h2 id="gelecek-planlar">Gelecek Planları<a class="headerlink" href="#gelecek-planlar" title="Permanent link">&para;</a></h2>
 <h3 id="ksa-vadeli">Kısa Vadeli<a class="headerlink" href="#ksa-vadeli" title="Permanent link">&para;</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> API rate limiting</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Caching layer</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Batch processing</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Web UI</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> API endpointleri ve doğrulama</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Uygulama akışından bağımsız dil belirleme</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Önbellekleme adımı</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Analiz öncesi metin ön işleme</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Web arayüzü</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Yapısal ve vektör veri tabanı ayarları</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Logging ayarları</li>
 </ul>
 <h3 id="uzun-vadeli">Uzun Vadeli<a class="headerlink" href="#uzun-vadeli" title="Permanent link">&para;</a></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Multi-tenant support</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Real-time streaming</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Advanced analytics</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Mobile SDK</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Gelişmiş prompt yapısını ile görev sınırlandırma</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> İleri seviye analizleme</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Görsel analiz</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Backend ekleme</li>
 </ul>
 
 
@@ -1491,7 +1455,7 @@
     <span class="md-icon" title="Son Güncelleme">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 Ekim 2025 14:18:12 UTC">12 Ekim 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="22 Ekim 2025 11:51:19 UTC">22 Ekim 2025</span>
   </span>
 
     
