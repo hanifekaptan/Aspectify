@@ -40,7 +40,7 @@ Aspectify employs a modular, agent-driven architecture to process requests. The 
 | **Backend**       | Python 3.10+                         | FastAPI               |
 | **AI / ML**       | Google Gemini, OpenAI Whisper        | LangChain             |
 | **Data Validation** | Pydantic                             | -                     |
-| **Infrastructure**| -                                    | Docker, PostgreSQL    |
+| **Infrastructure**| -                                    | Docker, SQLite    |
 | **Database**      | -                                    | Pinecone (Vector DB)  |
 
 ## 📂 Project Structure

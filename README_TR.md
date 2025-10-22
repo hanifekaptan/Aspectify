@@ -41,7 +41,7 @@ Aspectify, istekleri akıllıca işlemek için modüler ve ajan tabanlı bir mim
 | **Backend**         | Python 3.10+                     | FastAPI                 |
 | **Yapay Zeka / ML** | Google Gemini, OpenAI Whisper    | LangChain               |
 | **Veri Doğrulama**  | Pydantic                         | -                       |
-| **Altyapı**         | -                                | Docker, PostgreSQL      |
+| **Altyapı**         | -                                | Docker, SQLite      |
 | **Veritabanı**      | -                                | Pinecone (Vektör DB)    |
 
 ## 📂 Proje Yapısı
