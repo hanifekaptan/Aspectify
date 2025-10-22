@@ -81,4 +81,4 @@ Aspectify follows a modular architecture:
 
 ## Support
 
-For questions, issues, or contributions, please visit the [GitHub repository](https://github.com/hanifekaptan/Aspectify). You can also contact me directly via [Linkedin](https://medium.com/@hanifekaptan) or [E-mail](hanifekaptan.dev@gmail.com).
+For questions, issues, or contributions, please visit the [GitHub repository](https://github.com/hanifekaptan/Aspectify). You can also contact me directly via [Linkedin](https://medium.com/@hanifekaptan) or [E-mail](mailto:hanifekaptan.dev@gmail.com).

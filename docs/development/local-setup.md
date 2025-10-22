@@ -32,4 +32,4 @@ We write tests to ensure that every new feature or bug fix does not break the ex
 
 During development, you are expected to use the logging system effectively to understand your code's behavior and to debug issues. To learn how to use logs in your code:
 
--   **[Logging Guide](./logging-guide.md)**
+-   **[Logging Guide](./logging.md)**

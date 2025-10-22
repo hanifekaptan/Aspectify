@@ -81,4 +81,4 @@ Aspectify modüler bir mimariyi takip eder:
 
 ## Destek
 
-Sorular, sorunlar veya katkılar için lütfen [GitHub deposunu](https://github.com/hanifekaptan/Aspectify) ziyaret edin. [Linkedin](https://medium.com/@hanifekaptan) veya [E-mail](hanifekaptan.dev@gmail.com) üzerinden doğrudan iletişime geçebilirsiniz.
+Sorular, sorunlar veya katkılar için lütfen [GitHub deposunu](https://github.com/hanifekaptan/Aspectify) ziyaret edin. [Linkedin](https://medium.com/@hanifekaptan) veya [E-mail](mailto:hanifekaptan.dev@gmail.com) üzerinden doğrudan iletişime geçebilirsiniz.

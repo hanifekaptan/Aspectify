@@ -32,4 +32,4 @@ Yazdığınız her yeni özelliğin veya yaptığınız her hata düzeltmesinin 
 
 Geliştirme sırasında kodunuzun davranışını anlamak ve hataları ayıklamak için loglama sistemini etkin bir şekilde kullanmanız beklenir. Kodunuzda logları nasıl kullanacağınızı öğrenmek için:
 
--   **[Geliştirici için Loglama Kılavuzu](./logging-guide.md)**
+-   **[Geliştirici için Loglama Kılavuzu](./logging.md)**
